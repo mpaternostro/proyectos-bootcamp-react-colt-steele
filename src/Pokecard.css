@@ -1,0 +1,32 @@
+.Pokecard {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: floralwhite;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Pokecard-name {
+  color: dodgerblue;
+}
+
+.Pokecard-image {
+  width: 75%;
+  transition: transform 0.3s;
+}
+
+.Pokecard:hover .Pokecard-image {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.Pokecard-data {
+  color: black;
+}
+
+.Pokecard > * {
+  margin: 4px;
+}

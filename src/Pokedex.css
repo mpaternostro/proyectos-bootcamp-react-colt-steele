@@ -1,0 +1,15 @@
+.Pokedex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin: 30px;
+}
+
+.Pokedex-exp {
+  grid-column: 1 / -1;
+}
+
+.Pokedex-winner {
+  grid-column: 1 / -1;
+  margin: 0;
+}
