@@ -1,0 +1,45 @@
+.Todo {
+  display: flex;
+}
+
+.Todo-title {
+  flex: 1;
+  text-align: start;
+}
+
+.Todo-title input {
+  width: 100%;
+}
+
+@keyframes strike {
+  from {
+    text-decoration-color: transparent;
+  }
+  to {
+    text-decoration-color: auto;
+  }
+}
+.Todo-title--completed {
+  text-decoration: line-through;
+  animation: strike 0.4s linear;
+}
+
+.Todo button {
+  border: 1px solid #133c55;
+  background-color: #133c55af;
+  color: white;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.TodoList-Todos tr {
+  background-color: #3870a462;
+  margin: 4px 0;
+}
+
+td {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}

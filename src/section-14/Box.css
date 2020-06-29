@@ -1,0 +1,11 @@
+.Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Box div {
+  box-shadow: 5px 5px 8px 0 darkgray;
+  margin: 15px;
+}
