@@ -1,0 +1,12 @@
+.Deck {
+  text-align: center;
+}
+
+.Deck button {
+  display: block;
+  width: 100%;
+}
+
+.Deck-stack {
+  margin-top: 5em;
+}

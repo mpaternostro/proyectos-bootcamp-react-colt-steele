@@ -1,0 +1,68 @@
+body {
+  max-width: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  background: linear-gradient(
+    135deg,
+    rgb(179, 229, 252, 1) 0%,
+    rgb(179, 229, 252, 1) 50%,
+    rgb(240, 98, 146, 1) 50%,
+    rgb(240, 98, 146, 1) 100%
+  );
+}
+
+.DadJokes {
+  display: flex;
+  height: 80%;
+  width: 80%;
+}
+
+.DadJokes-sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9575cd;
+}
+
+.DadJokes-sidebar .DadJokes-title {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+.DadJokes-sidebar .DadJokes-title span {
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.DadJokes-lol {
+  font-size: 10em;
+}
+
+.DadJokes-sidebar button {
+  margin: 2em;
+}
+
+.DadJokes-jokelist {
+  background-color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.DadJokes-jokelist--loading {
+  justify-content: center;
+}
