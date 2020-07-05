@@ -1,0 +1,12 @@
+.DogInfo {
+  width: 25vw;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 5px 20px 3px #00000030;
+}
+
+@media (max-width: 500px) {
+  .DogInfo {
+    width: 80vw;
+  }
+}

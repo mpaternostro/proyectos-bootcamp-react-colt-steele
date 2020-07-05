@@ -1,0 +1,30 @@
+.Dog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: black;
+}
+
+.Dog img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 8px 5px 0 #00000030;
+}
+
+.Dog p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 2px solid transparent;
+  font-weight: 200;
+}
+
+.Dog:hover {
+  text-decoration: none;
+}
+
+.Dog:hover p {
+  color: black;
+  border-bottom: 2px solid black;
+}
