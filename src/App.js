@@ -1,8 +1,8 @@
 import React from "react";
-import TodoApp from "./section-33/TodoApp";
+import ContextApp from "./section-34/ContextApp";
 
 function App() {
-  return <TodoApp />;
+  return <ContextApp />;
 }
 
 export default App;
